@@ -72,7 +72,7 @@ CREATE INDEX proj_budget_nulls_first_idx ON projects(budget NULLS FIRST);
 
 SELECT proj_name,budget
 FROM projects
-ORDER BY budget NUULS FIRST;
+ORDER BY budget NULLS FIRST;
 
 --Part 6
 --6.1
